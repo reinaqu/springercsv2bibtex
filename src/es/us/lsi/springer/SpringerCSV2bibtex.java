@@ -1,4 +1,4 @@
-package es.us.lsi.util;
+package es.us.lsi.springer;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+
+import es.us.lsi.util.Ficheros;
+import es.us.lsi.util.SpringerUtils;
 
 public class SpringerCSV2bibtex {
 	
